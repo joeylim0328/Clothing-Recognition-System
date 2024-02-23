@@ -3,19 +3,18 @@ This is a simple clothing recognition system that classifies a clothing item int
 
 # Data Description
 There is a total of 6059 images. The number of images of each class is presented in the table below.
-| Class Name | Number of Images| 
-|----------|----------|
-| Belt| 600|
-| Dress| 600|
-| High_Heels| 600|
-| Pants| 612|
-| Dress| 600|
-| Shirt| 643|
-| Shoes| 600|
-| Skirt| 600|
-| Slipper| 600|
-| Socks| 604|
-| Spectacles| 600|
+| Class Name | Number of Images| Image Sample|
+|----------|----------|----------|
+| Belt| 600|![belt](/Screenshots/belt_094.jpg?raw=true)|
+| Dress| 600|![dress](/Screenshots/Dress_327.jpg?raw=true)|
+| High_Heels| 600|![Heels](/Screenshots/heels_001.jpg?raw=true)|
+| Pants| 612|![Pants](/Screenshots/pants_012.jpg?raw=true)|
+| Shirt| 643|![Shirt](/Screenshots/shirt_057.jpg?raw=true)|
+| Shoes| 600|![Shoes](/Screenshots/shoe_002.jpg?raw=true)|
+| Skirt| 600|![Skirt](/Screenshots/Skirt_074.jpg?raw=true)|
+| Slipper| 600|![Slipper](/Screenshots/slipper_032.jpg?raw=true)|
+| Socks| 604|![Socks](/Screenshots/socks_040.jpg?raw=true)|
+| Spectacles| 600|![Spectacles](/Screenshots/specs_016.jpg?raw=true)|
 
 The train_test_split funciton is used to split the data into training set and testing set. After that, part of the training set i used as the validation set.
 For the Multilayer Perceptron model,
