@@ -12,7 +12,7 @@ There is a total of 6059 images. The number of images of each class is presented
 | Shirt| 643|![Shirt](/Screenshots/shirt_057.jpg?raw=true)|
 | Shoes| 600|![Shoes](/Screenshots/shoe_002.jpg?raw=true)|
 | Skirt| 600|![Skirt](/Screenshots/Skirt_074.jpg?raw=true)|
-| Slipper| 600|![Slipper](/Screenshots/slipper_032.jpg?raw=true)|
+| Slipper| 600|![Slipper](/Screenshots/slipper_032.jpeg?raw=true)|
 | Socks| 604|![Socks](/Screenshots/socks_040.jpg?raw=true)|
 | Spectacles| 600|![Spectacles](/Screenshots/specs_016.jpg?raw=true)|
 
