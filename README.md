@@ -44,37 +44,42 @@ Before splitting the datasets, all images are resized to `84*84 pixels`. Numbers
 ![code_3](/Screenshots/code_3.png?raw=true)
 ![CNN architecture](/Screenshots/arch_2.jpg?raw=true)
 
-_Convolutional Layer 1_
-![conv_layer1](/Screenshots/conv_layer1.jpg?raw=true)
+_Convolutional Layer 1_<br>
+![conv_layer1](/Screenshots/conv_layer1.jpg?raw=true)<br>
 The input image is `84 * 84 pixels`. The filter kernel is `7 * 7 pixels`. The 64 filter kernels will convolve with the input images with stride=1, and produce 64 `78 * 78 pixels` feature maps.
 The output size of 1 feature map can be calculated as below,
 Output size = [84 – 7]/1 + 1 = 78
 
-_Pooling Layer 1_
-![pool_layer1](/Screenshots/pool_layer1.jpg?raw=true)
+_Pooling Layer 1_<br>
+![pool_layer1](/Screenshots/pool_layer1.jpg?raw=true)<br>
 After the first convolutional layer, the feature maps are pooled with `2 * 2` max pool layer with stride=2, and produce 64 `39 * 39 pixels` feature maps.
 Output size = [78 – 2]/2 + 1 = 39
 
-_Convolutional Layer 2_
-![conv_layer2](/Screenshots/conv_layer2.jpg?raw=true)
+_Convolutional Layer 2_<br>
+![conv_layer2](/Screenshots/conv_layer2.jpg?raw=true)<br>
 After the first pooling layer, the feature map is `39 * 39 pixels`. The filter kernel is `7 * 7 pixels`. The 128 filter kernels will convolve with the feature maps with stride=1, and produce 8192 `33 * 33 pixels` feature maps.
 Output size = [39 – 7]/1 +1 = 33
 
-_Pooling Layer 2_
-![pool_layer2](/Screenshots/pool_layer2.jpg?raw=true)
+_Pooling Layer 2_<br>
+![pool_layer2](/Screenshots/pool_layer2.jpg?raw=true)<br>
 After the second convolutional layer, the feature maps are pooled with `2 * 2` max pool layer with stride=2, and produce 8192 `16 * 16 pixels` feature maps.
 Output size = [33 – 2]/2 + 1 = 16
 
-_Convolutional Layer 3_
-![conv_layer3](/Screenshots/conv_layer3.jpg?raw=true)
+_Convolutional Layer 3_<br>
+![conv_layer3](/Screenshots/conv_layer3.jpg?raw=true)<br>
 After the second pooling layer, the feature map is `16 * 16 pixels`. The filter kernel is `7 * 7 pixels`. The 128 filter kernels will convolve with the feature maps with stride=1, and produce 1048576 `10 * 10 pixels` feature maps.
 Output size = [16 – 7]/1 +1 = 10
 
-_Pooling Layer 3_
-![pool_layer3](/Screenshots/pool_layer3.jpg?raw=true)
+_Pooling Layer 3_<br>
+![pool_layer3](/Screenshots/pool_layer3.jpg?raw=true)<br>
 After the third convolutional layer, the feature maps are pooled with `2 * 2` max pool layer with stride=2, and produce 1048576 `5 * 5 pixels` feature maps.
 Output size = [10 - 2]/2 + 1 = 5
 
+# Result
+MLP <br>
+![MLP_result](/Screenshots/mlp_graph.png?raw=true)<br>
+CNN <br>
+![CNN_result](/Screenshots/cnn_graph.png?raw=true)<br>
 
 # Authors
 Joey Lim, Y.F.,Tan, J.C.,Tan, Z.X.,Ng, B.S.,Leong
